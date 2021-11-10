@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body {
+  font-family: "Manrope", sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #18191f;
+  font-weight: bold;
+  padding-top: 85px;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+}
+
+h1 {
+  font-weight: 800;
+  line-height: 56px;
+  font-size: 42px;
+}
+
+h3 {
+  line-height: 32px;
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 15px;
+  text-transform: capitalize;
+}
+p {
+  line-height: 25px;
+  font-size: 16px;
+  font-weight: 400;
+}
+.container {
+  max-width: 1170px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.green {
+  color: #80bf43;
+}
+section#message_box {
+  height: 610px;
+  background-color: #80bf43;
+  position: relative;
+}
