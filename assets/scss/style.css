@@ -366,50 +366,6 @@ section#frame div.container div.frame_box .frame_box-one .frame-i .frame_footer 
   color: #80bf43;
 }
 
-section#banner_two {
-  margin: 64px 0;
-}
-
-section#banner_two div.container {
-  max-width: 1100px;
-  height: 288px;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 30px;
-  background-repeat: no-repeat;
-  margin-top: 64px;
-  background: url("image/png/BGMask.png");
-}
-
-section#banner_two div.container .banner_cont {
-  text-align: center;
-}
-
-section#banner_two div.container .banner_cont h1 {
-  padding: 43px 293px 32px;
-  font-size: 40px;
-  line-height: 54px;
-  color: #ffffff;
-}
-
-section#banner_two div.container .banner_cont button.join_btn {
-  width: 240px;
-  height: 62px;
-  background: #ffffff;
-  border-radius: 16px;
-  color: #80bf43;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  border: 1px solid #80bf43;
-}
-
-section#banner_two div.container .banner_cont button.join_btn:hover {
-  background: #80bf43;
-  color: #ffffff;
-  border: 2px solid #ffffff;
-}
-
 section#expr .container {
   max-width: 1190px;
   margin: 0 auto;
@@ -499,45 +455,29 @@ section#expr .container div.cards i.fa.fa-chevron-right:hover {
   color: #ffffff;
 }
 
-section#banner_two {
-  margin: 64px 0;
-}
-
-section#banner_two div.container {
-  max-width: 1100px;
-  height: 288px;
-  margin: 0 auto;
-  overflow: hidden;
-  border-radius: 30px;
-  background-repeat: no-repeat;
-  margin-top: 64px;
-  background: url("image/png/BGMask.png");
-}
-
-section#banner_two div.container .banner_cont {
+.banner_two {
+  background: url(../images/bg-mask.png) no-repeat center/cover;
+  color: white;
   text-align: center;
+  border-radius: 8px;
 }
 
-section#banner_two div.container .banner_cont h1 {
-  padding: 43px 293px 32px;
+.banner_two h1 {
   font-size: 40px;
   line-height: 54px;
-  color: #ffffff;
+  margin: 40px 0;
+  padding: 26px 0;
 }
 
-section#banner_two div.container .banner_cont button.join_btn {
-  width: 240px;
-  height: 62px;
-  background: #ffffff;
-  border-radius: 16px;
+.banner_two .button-link {
+  background: white;
   color: #80bf43;
-  font-weight: bold;
-  font-size: 20px;
-  line-height: 30px;
-  border: 1px solid #80bf43;
+  font-size: 22px;
+  padding: 20px;
+  margin-bottom: 60px;
 }
 
-section#banner_two div.container .banner_cont button.join_btn:hover {
+.banner_two .button-link:hover {
   background: #80bf43;
   color: #ffffff;
   border: 2px solid #ffffff;
