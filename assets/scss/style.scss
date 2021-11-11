@@ -60,6 +60,9 @@
   align-items: center;
   .banner-left {
     width: 50%;
+    p {
+      margin-top: 20px;
+    }
   }
   .right-banner-sec {
     width: 50%;
@@ -89,6 +92,13 @@
       padding: 40px 32px;
       box-shadow: 0px 10px 25px 3px #29292a1a;
       margin-left: 2.6%;
+      &:hover {
+        background: #80bf43;
+        color: white;
+        .h3-green {
+          color: white;
+        }
+      }
       &:nth-child(3n + 1) {
         margin-left: 0;
       }
@@ -145,6 +155,81 @@
     }
   }
 }
+
+.message_sec {
+  background: url(../images/BG.png) no-repeat center/cover;
+  position: relative;
+  margin-bottom: 80px;
+  h2 {
+    padding: 42px 0px;
+
+    font-size: 48px;
+    color: white;
+  }
+  .coma {
+    position: absolute;
+    right: 0;
+    position: absolute;
+    right: 321px;
+    top: 40px;
+
+    opacity: 0.2;
+  }
+  .message {
+    display: flex;
+    width: 100%;
+
+    .msg_left_right {
+      background: url(../images/Card.png) no-repeat center/cover;
+      width: 50%;
+
+      text-align: center;
+      border-radius: 8px;
+      margin-right: 70px;
+
+      h4 {
+        font-size: 20px;
+        padding-top: 43px;
+      }
+      p {
+        padding: 24px;
+        padding-bottom: 96px;
+      }
+    }
+    // .msg_right {
+    //   width: 50%;
+    //   background-color: white;
+    //   margin-left: 10%;
+    //   text-align: center;
+    //   border-radius: 8px;
+    //   h4 {
+    //     font-size: 20px;
+    //     padding: 20px;
+    //   }
+    //   p {
+    //     padding: 25px;
+    //   }
+    // }
+  }
+  .auther-part {
+    display: flex;
+    justify-content: space-around;
+    margin: 22px;
+
+    color: white;
+    .auther_left_right {
+      display: flex;
+      align-items: center;
+      .profile {
+        padding-right: 20px;
+      }
+    }
+  }
+  .dot {
+    text-align: center;
+    padding: 40px;
+  }
+}
 .section-tech {
   margin-bottom: 80px;
   h1 {
@@ -173,6 +258,9 @@
       a {
         text-decoration: none;
         color: black;
+        &:hover {
+          color: #80bf43;
+        }
         &.active {
           color: #80bf43;
 
