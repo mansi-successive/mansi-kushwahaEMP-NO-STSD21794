@@ -1,3 +1,14 @@
+.back-sprite {
+  background: url(../images/back-sprite.png) no-repeat;
+  background-size: 1093px auto;
+  display: inline-block;
+  height: 64px;
+  width: 77px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
 .button-link {
   border: 1px solid #80bf43;
   padding: 10px 15px;
@@ -8,7 +19,81 @@
 
 .button-link:hover {
   background-color: white;
+  cursor: pointer;
   color: #80bf43;
+}
+
+.sprite-img {
+  text-align: center;
+  margin-bottom: 90px;
+}
+
+.sprite-img + .sprite-img {
+  margin-left: 60px;
+}
+
+.sprite-img span {
+  display: block;
+  margin-bottom: 20px;
+}
+
+.group-img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+}
+
+.js {
+  background-position: -20px -20px;
+}
+
+.vue {
+  background-position: -108px -20px;
+}
+
+.express-js {
+  background-position: -284px -20px;
+}
+
+.next-js {
+  background-position: -372px -20px;
+}
+
+.koa {
+  background-position: -459px -20px;
+}
+
+.python {
+  background-position: -548px -20px;
+}
+
+.graph {
+  background-position: -635px -20px;
+}
+
+.apollo {
+  background-position: -724px -20px;
+}
+
+.strapi {
+  background-position: -812px -20px;
+}
+
+.hap {
+  background-position: -902px -20px;
+}
+
+.nest {
+  background-position: -988px -20px;
 }
 
 .header {
@@ -561,6 +646,7 @@ section#expr .container div.cards i.fa.fa-chevron-right:hover {
 }
 
 .banner_two .button-link {
+  border: 2px solid white;
   background: white;
   color: #80bf43;
   font-size: 22px;
@@ -751,122 +837,75 @@ section#touch_div div.container .touch_heading div.help .heading_two p img:hover
           box-shadow: #26394d 0px 20px 30px -10px;
 }
 
-section#footer {
-  height: 408px;
+.footer {
   background-color: #0b0d17;
-  margin-top: 76px;
+  padding: 62px;
 }
 
-section#footer div.container {
-  max-width: 1190px;
-  margin: 0 auto;
-  overflow: hidden;
-}
-
-section#footer div .footer_contain {
+.footer .container {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
 }
 
-section#footer div .footer_contain .footer_left {
+.footer .container .footer_left {
+  width: 30%;
   margin-right: 55px;
 }
 
-section#footer div .footer_contain .footer_left img.footer_logo {
+.footer .container .footer_left .footer_logo {
   width: 180px;
   height: 63px;
   margin: 62px 0 0;
 }
 
-section#footer div .footer_contain .footer_left p {
+.footer .container .footer_left p {
   margin-top: 32px;
-  width: 281px;
-  height: 78px;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
-  font-weight: normal;
   font-size: 16px;
-  line-height: 26px;
   color: #f8f8f8;
   opacity: 0.85;
 }
 
-section#footer div .footer_contain .footer_left img.icon {
+.footer .container .footer_left .icon {
   margin: 34px 18px 0 0;
 }
 
-section#footer div .footer_contain .footer_right {
-  width: 855px;
+.footer .container .footer_right {
+  width: 70%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
   margin-top: 86px;
 }
 
-section#footer div .footer_contain .footer_right .footer_heading {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  color: white;
-}
-
-section#footer div .footer_contain .footer_right .footer_heading h6.col1 {
-  width: 116px;
-  height: 30px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  color: #85868b;
-}
-
-section#footer div .footer_contain .footer_right .footer_heading h6.col2 {
-  height: 30px;
-  width: 110px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  margin-left: 72px;
-  color: #85868b;
-}
-
-section#footer div .footer_contain .footer_right .footer_heading h6.col3 {
-  height: 30px;
-  width: 130px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  margin-left: 72px;
-  color: #85868b;
-}
-
-section#footer div .footer_contain .footer_right .footer_heading h6.col4 {
-  height: 30px;
-  width: 110px;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-  margin-left: 57px;
-  color: #85868b;
-}
-
-section#footer div .footer_contain .footer_right .coloumn_h {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-}
-
-section#footer div .footer_contain .footer_right .coloumn_h .heading_col {
+.footer .container .footer_right .footer-column {
   color: #ffffff;
 }
 
-section#footer div .footer_contain .footer_right .coloumn_h .heading_col p {
-  width: 188px;
-  margin-top: 10px;
-  font-weight: normal;
-  font-size: 16px;
-  margin-bottom: 9px;
+.footer .container .footer_right .footer-column h6 {
+  font-weight: 500;
+  font-size: 20px;
+  color: white;
+  margin-bottom: 20px;
 }
 
-section#footer div .footer_contain .footer_right .coloumn_h .heading_col p span {
+.footer .container .footer_right .footer-column li {
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+.footer .container .footer_right .footer-column li a {
+  text-decoration: none;
+  color: white;
+  font-weight: normal;
+  font-size: 16px;
+}
+
+.footer .container .footer_right .footer-column li a span {
   color: #80bf43;
 }
 /*# sourceMappingURL=style.css.map */
